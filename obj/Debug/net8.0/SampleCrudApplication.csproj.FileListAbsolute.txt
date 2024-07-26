@@ -134,3 +134,4 @@ D:\Projects\Avantrio\Tutorials\SampleCrudApplication\SampleCrudApplication\bin\D
 D:\Projects\Avantrio\Tutorials\SampleCrudApplication\SampleCrudApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Projects\Avantrio\Tutorials\SampleCrudApplication\SampleCrudApplication\obj\Debug\net8.0\SampleCrudApplication.csproj.AssemblyReference.cache
 D:\Projects\Avantrio\Tutorials\SampleCrudApplication\SampleCrudApplication\obj\Debug\net8.0\SampleCr.1E241CC5.Up2Date
+D:\Projects\Avantrio\Tutorials\SampleCrudApplication\SampleCrudApplication\obj\Debug\net8.0\SampleCrudApplication.sourcelink.json

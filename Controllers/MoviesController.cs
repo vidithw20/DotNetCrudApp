@@ -32,6 +32,10 @@ namespace SampleCrudApplication.Controllers
                 Title = viewModel.Title,
                 Genre = viewModel.Genre,
                 Rating = viewModel.Rating,
+                DirectorName = viewModel.DirectorName,
+                ReleaseDate = viewModel.ReleaseDate
+
+
 
             };
 
@@ -68,6 +72,8 @@ namespace SampleCrudApplication.Controllers
                 movie.Title = viewModel.Title;
                 movie.Genre = viewModel.Genre;
                 movie.Rating = viewModel.Rating;
+                movie.DirectorName = viewModel.DirectorName;
+                movie.ReleaseDate = viewModel.ReleaseDate;
 
                 await dbContext.SaveChangesAsync();
 
