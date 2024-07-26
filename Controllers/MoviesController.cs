@@ -27,7 +27,7 @@ namespace SampleCrudApplication.Controllers
         public async Task<IActionResult> Add(AddMoviesViewModel viewModel)
         {
 
-            var movie = new Movies
+            var movie = new Movie
             {
                 Title = viewModel.Title,
                 Genre = viewModel.Genre,
@@ -63,7 +63,7 @@ namespace SampleCrudApplication.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Movies viewModel)
+        public async Task<IActionResult> Edit(Movie viewModel)
         {
             var movie = await dbContext.Movies.FindAsync(viewModel.Id);
 
@@ -85,7 +85,7 @@ namespace SampleCrudApplication.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(Movies viewModel)
+        public async Task<IActionResult> Delete(Movie viewModel)
         {
             var movie = await dbContext.Movies
                 .AsNoTracking()
